@@ -1,89 +1,76 @@
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-
-
-
-
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  </head>
-
+  
+  <title>Module 3 Solution</title>
+</head>
 <body>
-
- <header>
+    <header class="nav-header">
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-                    <div class="navbar-brand">
-            <a href="index.html"><h1>LLC Food</h1></a>
-            
-               </div>
-   
-
-
-
-
-                 <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                   <span class="navbar-toggler-icon"></span>
-              </button>
-        </div>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#sushi">Sushi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#chicken">Chicken</a>
-      </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#beef">Beef</a>
-      </li>
-     
-    </ul>
-    
-  </div>
-
+          <div class="navbar-brand">
+            <p class="nav-brand">Food, LLC</p>
           </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text-center">
+              <a href="#chicken-div"><p class="item">Chicken</p></a>
+              <hr class="visible-xs">
+            </li>            
+            <li class="text-center">
+              <a href="#beef-div"><p class="item">Beef</p></a>
+              <hr class="visible-xs">
+            </li>
+            <li class="text-center">
+              <a href="#sushi-div"><p class="item">Sushi</p></a>
+            </li>
+          </ul> 
+        </div>
+      </div>
     </nav>
-  </header>
-<div id="heading"><p>MENU</p></div>
-<div class="row outer">
-  <div class=" main">
-    <div class="title">Sushi</div>
-    <p id="sushi">The most common misconception about sushi is that it is simply raw fish, or that raw fish is an integral part of sushi. When raw fish is served by itself it is called sashimi. Although sushi originally included raw fish, it can be made with a variety of ingredients.The most common misconception about sushi is that it is simply raw fish, or that raw fish is an integral part of sushi. When raw fish is served by itself it is called sashimi. Although sushi originally included raw fish, it can be made with a variety of ingredients.The most common misconception about sushi is that it is simply raw fish, or that raw fish is an integral part of sushi. When raw fish is served by itself it is called sashimi. Although sushi originally included raw fish, it can be made with a variety of ingredients</p></div>
-  <div class=" main">
-    <div class="title">Beef</div>
-    <p id="beef">Beef is meat from a cow. It's also a word for a complaint. If you have a beef with someone, you're not sharing a steak, you have a gripe. ... The word beef comes from the Old French word buef, which became the word for basically, cow meat. Beef is to cow as pork is to pig or mutton is to sheep.Beef is meat from a cow. It's also a word for a complaint. If you have a beef with someone, you're not sharing a steak, you have a gripe. ... The word beef comes from the Old French word buef, which became the word for basically, cow meat. Beef is to cow as pork is to pig or mutton is to sheep.Beef is meat from a cow. It's also a word for a complaint. If you have a beef with someone, you're not sharing a steak, you have a gripe. ... The word beef comes from the Old French word buef, which became the word for basically, cow meat. Beef is to cow as pork is to pig or mutton is to sheep.</p></div>
-  <div class=" main">
-    <div class="title">Chicken</div>
-    <p id="chicken">The reason chicken is always included in a healthy diet is because it is basically a lean meat, which means it doesn't have much fat. So, eating chicken regularly can actually help you lose weight in a healthy way. Apart from protein, chicken is also chock full of calcium and phosphorous.The reason chicken is always included in a healthy diet is because it is basically a lean meat, which means it doesn't have much fat. So, eating chicken regularly can actually help you lose weight in a healthy way. Apart from protein, chicken is also chock full of calcium and phosphorous.The reason chicken is always included in a healthy diet is because it is basically a lean meat, which means it doesn't have much fat. So, eating chicken regularly can actually help you lose weight in a healthy way. Apart from protein, chicken is also chock full of calcium and phosphorous</p></div>
+    </header>
+
+  <h1> Our Menu</h1>
+
+  <div class="col-lg-4 col-md-6 col-sm-12" id="chicken-div">
+    <div class="box">
+      <p class="content-name ">Chicken</p>
+      <p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+    </div>
   </div>
-  
 
+  <div class="col-lg-4 col-md-6 col-sm-12" id="beef-div">
+    <div class="box">
+      <p class="content-name ">Beef</p>
+      <p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+    </div>
+  </div>
 
+  <div class="col-lg-4 col-md-12 col-sm-12" id="sushi-div">
+    <div class="box">
+      <p class="content-name ">Sushi</p>
+      <p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+    </div>  
+  </div>
 
-
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
