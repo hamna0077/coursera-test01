@@ -8,10 +8,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Assignment Solution for Module 3</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <style>
+        
+
+.topnav {
+  overflow: hidden;
+  background-color: #f6b319;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  
+ text-decoration: underline;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+    </style>
 
 </head>
 
@@ -32,7 +62,7 @@
                     </button>
                 </div>
 
-                <div id="collapsable-nav" class="collapse navbar-collapse">
+                <div class="topnav" id="myTopnav">
                     <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
                         <li>
                             <a href="#chicken-tile"><br class="hidden-xs"> Chicken</a>
@@ -189,6 +219,16 @@
 
 
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
+     <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- <script src="js/script.js"></script> -->
