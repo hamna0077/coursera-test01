@@ -27,20 +27,20 @@ div #color{
 #Chicken{
     padding: 15px;
     margin-bottom: 15px;
-    background-color: #122222;
-    color: #eeeeee;
+    background-color: pink;
+    color: blue;
 }
 #Beef{
     padding: 15px;
     margin-bottom: 15px;
-    background-color: #304444;
-    color: #eeeeee;
+    background-color: pink;
+    color: blue;
 }
 #Sushi{
     padding: 15px;
     margin-bottom: 15px;
-    background-color: #566666;
-    color: #eeeeee;
+    background-color: pink;
+    color: blue;
 }
 .hide{
     background-color: #22a2a2;
